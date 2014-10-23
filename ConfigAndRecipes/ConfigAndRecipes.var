@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: ConfigAndRecipes
+ * File: ConfigAndRecipes.var
+ * Author: goran_2
+ * Created: August 06, 2011
+ ********************************************************************
+ * Variables of package ConfigAndRecipes
+ ********************************************************************)
+VAR
+	gConfig : cfgConfig_typ := (0); (*Machine configuration data*)
+	gRecipe : cfgRecipe_typ := (0);
+END_VAR
+VAR RETAIN
+	gRemanentData : cfgRemanentData_typ; (*Data stored in remanent (battery backed) memory.*)
+END_VAR

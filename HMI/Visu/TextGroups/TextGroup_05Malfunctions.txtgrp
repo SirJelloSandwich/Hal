@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.0.19.69 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TextGroup_05Malfunctions">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="110"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="129008" Value="MF00: NONE"/>
+    <Text ID="129009" Value="MF01: FREEWHEELING"/>
+    <Text ID="129010" Value="MF02: BRIDGEOUT"/>
+    <Text ID="129011" Value="MF03: PULLING INTO LUBRICATORS"/>
+    <Text ID="129012" Value="MF04: SLUFFING (DEBRIS FALLING ON TOOL)"/>
+    <Text ID="129013" Value="MF05: SUDDEN ACCELERATION TO TOP SHEAVE"/>
+    <Text ID="129014" Value="MF06: SUDDEN ACCELERATION TO TOTAL DEPTH (TD)"/>
+    <Text ID="129015" Value="MF07: HOLE DEVIATION"/>
+    <Text ID="129016" Value="MF08: LOSS OF 12 VDC"/>
+    <Text ID="129017" Value="MF09: LOSS OF HYDRAULIC CONTROLS"/>
+    <Text ID="129018" Value="MF10: LOSS OF ELECTRICAL CONTROLS"/>
+    <Text ID="129019" Value="MF11: LOSS OF CALIPER DISK BRAKE"/>
+    <Text ID="129020" Value="MF12: LOSS OF GEAR BOX BRAKE"/>
+    <Text ID="129325" Value="MF14: TOOL PULLOFF REACTION"/>
+    <Text ID="129326" Value="MF13: BACKLASH"/>
+    <Text ID="129327" Value="MF15: REEL SHUTDOWN"/>
+    <Text ID="129328" Value="MF16: TOOL PUSH"/>
+    <Text ID="129329" Value="MF17: PUMP DOWN TOOLS"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="129008" Value=""/>
+    <Text ID="129009" Value=""/>
+    <Text ID="129010" Value=""/>
+    <Text ID="129011" Value=""/>
+    <Text ID="129012" Value=""/>
+    <Text ID="129013" Value=""/>
+    <Text ID="129014" Value=""/>
+    <Text ID="129015" Value=""/>
+    <Text ID="129016" Value=""/>
+    <Text ID="129017" Value=""/>
+    <Text ID="129018" Value=""/>
+    <Text ID="129019" Value=""/>
+    <Text ID="129020" Value=""/>
+    <Text ID="129325" Value=""/>
+    <Text ID="129326" Value=""/>
+    <Text ID="129327" Value=""/>
+    <Text ID="129328" Value=""/>
+    <Text ID="129329" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="129008" Value="0"/>
+    <Index ID="129009" Value="1"/>
+    <Index ID="129010" Value="2"/>
+    <Index ID="129011" Value="3"/>
+    <Index ID="129012" Value="4"/>
+    <Index ID="129013" Value="5"/>
+    <Index ID="129014" Value="6"/>
+    <Index ID="129015" Value="7"/>
+    <Index ID="129016" Value="8"/>
+    <Index ID="129017" Value="9"/>
+    <Index ID="129018" Value="10"/>
+    <Index ID="129019" Value="11"/>
+    <Index ID="129020" Value="12"/>
+    <Index ID="129325" Value="14"/>
+    <Index ID="129326" Value="13"/>
+    <Index ID="129327" Value="15"/>
+    <Index ID="129328" Value="16"/>
+    <Index ID="129329" Value="17"/>
+  </IndexMap>
+</TextGroup>

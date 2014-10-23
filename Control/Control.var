@@ -1,0 +1,61 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: HydOilTemp
+ * File: HydOilTemp.var
+ * Author: ISM
+ * Created: March 27, 2013
+ ********************************************************************
+ * Local variables of program HydOilTemp
+ ********************************************************************)
+VAR
+	iTraining : USINT := 0;
+	CurrentHydOilTemp : BD_Panel_typ := (0);
+	BackUpDepthReel : BD_Panel_typ := (0);
+	WinchSim : BD_Panel_typ := (0);
+	EncoderSimMag : BD_Panel_typ := (0);
+	setTODNight : BOOL := FALSE;
+	indeadband : BOOL := FALSE;
+	stopXsim : BOOL := FALSE;
+	startXsim : BOOL := FALSE;
+END_VAR
+VAR RETAIN
+	CalibrationCtrl : CalCtrl_typ := (0);
+END_VAR
+VAR
+	EncoderSimSpool46 : CasedHolePanel_typ := (0);
+	LoadcellSim46 : CasedHolePanel_typ := (0);
+	IOSstatus43 : CasedHolePanel_typ := (0);
+	SafetySim : CasedHolePanel_typ := (0);
+	IOScmdData : CtrlIOScmd_typ := (0);
+	IOSstatusData : CtrlIOSstatus_typ := (0);
+	delay : DINT := 0;
+	EncoderCtrl : EncoderInputCtrl_typ := (0);
+	winchtest : INT := 0;
+	loop : INT := 0;
+	iCurrentVideo : INT := 0;
+	lastWinch : INT := 0;
+	i : INT := 0;
+	x : INT := 0;
+	iPanelIn_buffer : INT := 0;
+	n : ARRAY[0..19] OF INT := [20(0)];
+	IOSstatus46 : OpenHolePanel_typ := (0);
+	FeedBackSim : OpenHolePanel_typ := (0);
+	EncoderSimSpool43 : OpenHolePanel_typ := (0);
+	LoadcellSim43 : OpenHolePanel_typ := (0);
+	PanelOut : OperatorsPanel_typ := (0);
+	PanelIn : OperatorsPanel_typ := (0);
+	PowerSim : PowerHandle_typ := (0);
+	Spooler_LR_max : REAL := 0.0;
+	Super_Slow_Spd_Ctrl_max : REAL := 0.0;
+	Winch_Ctrl_max : REAL := 0.0;
+	Caliper_Brake_Ctrl_max : REAL := 0.0;
+	Line_Tension_Ctrl_max : REAL := 0.0;
+	Pivot_Ctrl_max : REAL := 0.0;
+	rHMIspeedControl : REAL := 0.0;
+	rWinchInput : REAL := 0.0;
+	Spooler_UD_max : REAL := 0.0;
+	rHydOilTempf : REAL := 0.0;
+	SysStatusTruck : System_typ := (0);
+	Shutdown : System_typ := (0);
+END_VAR

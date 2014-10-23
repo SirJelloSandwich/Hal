@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.24 SP06?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">J1939.typ</Object>
+    <Object Type="File" Description="Global variables">J1939.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="A new program">j1939test</Object>
+  </Objects>
+</Package>

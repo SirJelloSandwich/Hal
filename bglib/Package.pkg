@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.14.207?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">bgXmlRpcParser.h</Object>
+    <Object Type="File">_X_bgftpclient.c</Object>
+    <Object Type="File">bgBitUtilities.c</Object>
+    <Object Type="File">bgBufMemAlloc.c</Object>
+    <Object Type="File">bgBufMemAlloc.h</Object>
+    <Object Type="File">bgDataStructures.c</Object>
+    <Object Type="File">bgDataStructures.h</Object>
+    <Object Type="File">bgdebug.h</Object>
+    <Object Type="File">bgfsig.c</Object>
+    <Object Type="File">bgfsig.h</Object>
+    <Object Type="File">bgftpclient.c</Object>
+    <Object Type="File">bgftpclient.h</Object>
+    <Object Type="File">bgftpclient_lib.c</Object>
+    <Object Type="File">bgHttpAppWeb.c</Object>
+    <Object Type="File">bgHttpAppWeb.h</Object>
+    <Object Type="File">bgHttpAppXmlRpc.c</Object>
+    <Object Type="File">bgHttpAppXmlRpc.h</Object>
+    <Object Type="File">bgHttpProtocol.c</Object>
+    <Object Type="File">bgHttpProtocol.h</Object>
+    <Object Type="File">bglib-1.c</Object>
+    <Object Type="File">bglib.c</Object>
+    <Object Type="File">bglibversion.h</Object>
+    <Object Type="File">bgPVLogger.c</Object>
+    <Object Type="File">bgringbuffer.c</Object>
+    <Object Type="File">bgringbuffer.h</Object>
+    <Object Type="File">bgSecMD5Signature.c</Object>
+    <Object Type="File">bgSecMD5Signature.h</Object>
+    <Object Type="File">bgsprintf.c</Object>
+    <Object Type="File">bgsprintf.h</Object>
+    <Object Type="File">bgsscanf.c</Object>
+    <Object Type="File">bgsscanf.h</Object>
+    <Object Type="File">bgstatemachine.c</Object>
+    <Object Type="File">bgstatemachine.h</Object>
+    <Object Type="File">bgstring.c</Object>
+    <Object Type="File">bgstring.h</Object>
+    <Object Type="File">bgstringTest.c</Object>
+    <Object Type="File">bgTcpSocketClient.c</Object>
+    <Object Type="File">bgTcpSocketClientServer.h</Object>
+    <Object Type="File">bgTcpSocketServer.c</Object>
+    <Object Type="File">bgtelnetsrvr.c</Object>
+    <Object Type="File">bgTelnetSrvr-astcp.c</Object>
+    <Object Type="File">bgTimer1ms.c</Object>
+    <Object Type="File">bgTimer.c</Object>
+    <Object Type="File">bgTimer.h</Object>
+    <Object Type="File">bgXmlRpcParser.c</Object>
+    <Object Type="File">bgPVSerialize.h</Object>
+    <Object Type="File">bgPVSerialize.c</Object>
+    <Object Type="File">bgBitUtilities.h</Object>
+    <Object Type="File">bgTimer1ms.h</Object>
+  </Objects>
+</Package>

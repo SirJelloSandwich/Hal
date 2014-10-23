@@ -1,0 +1,2 @@
+on 10/16/2014  changed PLC 1 config Volatile Global PV bytes from 65535 to 70000.
+During transfer I was getting errors that said i had to do this.

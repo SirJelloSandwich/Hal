@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">bglibas.typ</File>
+    <File Description="Exported constants">bglibas.var</File>
+    <File>bglibas.fun</File>
+    <File>bgssm.c</File>
+    <File>bgfifo.c</File>
+    <File>bgTimer1ms.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="standard" />
+  </Dependencies>
+</Library>

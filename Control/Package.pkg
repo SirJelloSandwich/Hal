@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Local data types">Control.typ</Object>
+    <Object Type="File" Description="Local variables">Control.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="Emulator an encoder">Encoder</Object>
+    <Object Type="Program" Language="ANSIC" Description="Handle data from winchman panels">Panel_I_O</Object>
+    <Object Type="Program" Language="ANSIC" Description="Model REEL">Winch</Object>
+    <Object Type="Program" Language="ANSIC" Description="Electrical System Model">Electrical</Object>
+    <Object Type="Program" Language="ANSIC" Description="Handler for I/O from operator panel">Input_Output</Object>
+    <Object Type="Program" Language="ANSIC" Description="Emulate Loadcell">LoadCell</Object>
+    <Object Type="Program" Language="ANSIC" Description="Drive the Oil Temp gauge">HydOilTemp</Object>
+    <Object Type="Program" Language="ANSIC" Description="Logic handler for data from IOS display">IOS</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- belgor
+ ********************************************************************
+ * Package: paiUDPService
+ * File: paiUDPService.var
+ * Author: goran
+ * Created: October 12, 2011
+ ********************************************************************
+ * Variables of package paiUDPService
+ ********************************************************************)
+VAR CONSTANT
+	gUdpServerMySQL_DefaultPort : UDINT := 9986; (*UDP Server default port*)
+	gUdpClientMySQL_TaskCycleTimeXms : UDINT := 10; (*UDP Client task cycle time in [ms]*)
+	gUdpClientMySQL_DefaultPort : UDINT := 9985; (*UDP Client default port*)
+END_VAR
+VAR
+	gUdpClientMySQL_DefaultHostAdr : STRING[UDP_IP_ADDR_LEN] := '192.168.2.105'; (*UDP Client default host IP address when using continues UDP client mode*)
+	gUdpServerMySQL : udpServer_typ; (*UDP Server Object Instance*)
+	gUdpClientMySQL : udpClient_typ; (*UDP Client Object Instance*)
+END_VAR

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.19.69 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">network.txt</Object>
+    <Object Type="File">update_Notes.txt</Object>
+  </Objects>
+</Package>

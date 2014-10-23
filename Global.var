@@ -1,0 +1,25 @@
+(****************************Revision History**********************)
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: Global.var
+ * Author: Rob Byrne ISM
+ * Created: March 20, 2013
+ ********************************************************************
+ * Global variables of project Winchmans_Simulator
+ ********************************************************************)
+VAR
+	main : Main_typ := (0);
+	Questions : Questions_typ := (0);
+	state_table : ARRAY[0..2] OF USINT := [3(0)];
+	WellDriving : WellDriving_typ := (0);
+	RigUpModule : RigUpModule_typ := (0);
+	LineSpeedRealtoINT : INT := 0;
+	gVersion_Date : STRING[80] := '7/22/2014';
+	gVersion_Project : STRING[80] := '3.2';
+	gVersion_Automation_Studio : STRING[80] := '4.0.18.71';
+	gStream : DINT := 0; (*Integer to be stuffed by digitals on operators panel*)
+	gbusPower : BOOL := FALSE;
+	gAnalogCtrl : ctrlInterfaceStatus_typ := (0); (*Normalized operator panel analog controls*)
+	gcmdData : ctrlInterfaceCmd_typ := (0);
+END_VAR

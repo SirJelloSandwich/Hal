@@ -1,0 +1,34 @@
+(********************************************************************
+ * COPYRIGHT -- HP
+ ********************************************************************
+ * Package: J1939
+ * File: J1939.var
+ * Author: goran
+ * Created: February 20, 2013
+ ********************************************************************
+ * Variables of package J1939
+ ********************************************************************)
+VAR
+	paiJ1939Drv2 : paiJ1939Driver_typ;
+	paiJ1939Drv1 : paiJ1939Driver_typ;
+	J1939EngineTempRx : paiJ1939EngineTemp_typ;
+	J1939EngineTempTx : paiJ1939EngineTemp_typ;
+	J1939EEC1Tx : paiJ1939EEC1_typ;
+	J1939FluidPressureTx : paiJ1939FluidPressure_typ;
+	J1939ElectricPowerTx : paiJ1939ElectricPower_typ;
+	J1939WirelineDepthTx : paiJ1939WirelineDepth_typ;
+	J1939WirelineDepthRx : paiJ1939WirelineDepth_typ;
+	J1939Rex181 : paiJ1939RexrothHMI181_typ := (0);
+	J1939Rex281 : paiJ1939RexrothHMI281_typ := (0);
+	J1939Rex381 : paiJ1939RexrothHMI381_typ := (0);
+	J1939Rex481 : paiJ1939RexrothHMI481_typ := (0);
+	J1939Rex581 : paiJ1939RexrothHMI581_typ := (0);
+	testEnable : USINT := 0;
+	testRequest : USINT := 0;
+	testId : UDINT := 0;
+	testBuf : ARRAY[0..7] OF USINT := [7(0)];
+	testCANwr : CANwrite := (0);
+	testCANrtr : CANrtr := (0);
+	firstpassCAN : BOOL := FALSE;
+	testdata : UDINT := 0;
+END_VAR

@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- HP
+ ********************************************************************
+ * File: Global.var
+ * Author: goran
+ * Created: January 23, 2013
+ ********************************************************************
+ * Global variables of project YieldPlus
+ ********************************************************************)
+VAR CONSTANT
+	UDP_MESSAGE_HEADER_CMD : STRING[31] := 'GAINCO YieldPlus cmd1 v01';
+	UDP_MESSAGE_HEADER_STATUS : STRING[31] := 'GAINCO YieldPlus stat1 v01';
+END_VAR
+VAR
+	gUdpStatusMsg : ctrlInterfaceStatus_typ := (0);
+	gUdpCmdMsg : ctrlInterfaceCmd_typ := (0);
+	gUdpAudioMsg : ctrlInterfaceStatusAudio_typ := (0);
+END_VAR

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.0.19.69 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TextGroup_00InitCond">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="105"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="114892" Value="IC00: 0 FEET IN HOLE"/>
+    <Text ID="114893" Value="IC01: 350 FEET IN HOLE"/>
+    <Text ID="114894" Value="IC02: 800 FEET IN HOLE"/>
+    <Text ID="128989" Value="IC03: 5000 FEET IN HOLE"/>
+    <Text ID="128990" Value="IC04: 10000 FEET IN HOLE"/>
+    <Text ID="128991" Value="IC05: 15000 FEET IN HOLE"/>
+    <Text ID="128992" Value="IC06: 20000 FEET IN HOLE"/>
+    <Text ID="128993" Value="IC07: 25000 FEET IN HOLE"/>
+    <Text ID="128994" Value="IC08: 27000 FEET IN HOLE"/>
+    <Text ID="128995" Value=""/>
+    <Text ID="128996" Value=""/>
+    <Text ID="128997" Value=""/>
+    <Text ID="128998" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="114892" Value=""/>
+    <Text ID="114893" Value=""/>
+    <Text ID="114894" Value=""/>
+    <Text ID="128989" Value=""/>
+    <Text ID="128990" Value=""/>
+    <Text ID="128991" Value=""/>
+    <Text ID="128992" Value=""/>
+    <Text ID="128993" Value=""/>
+    <Text ID="128994" Value=""/>
+    <Text ID="128995" Value=""/>
+    <Text ID="128996" Value=""/>
+    <Text ID="128997" Value=""/>
+    <Text ID="128998" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="114892" Value="0"/>
+    <Index ID="114893" Value="1"/>
+    <Index ID="114894" Value="2"/>
+    <Index ID="128989" Value="3"/>
+    <Index ID="128990" Value="4"/>
+    <Index ID="128991" Value="5"/>
+    <Index ID="128992" Value="6"/>
+    <Index ID="128993" Value="7"/>
+    <Index ID="128994" Value="8"/>
+    <Index ID="128995" Value="9"/>
+    <Index ID="128996" Value="10"/>
+    <Index ID="128997" Value="11"/>
+    <Index ID="128998" Value="12"/>
+  </IndexMap>
+</TextGroup>

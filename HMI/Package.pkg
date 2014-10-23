@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">HMIalert.typ</Object>
+    <Object Type="File" Description="Global data types">HMIdialog.typ</Object>
+    <Object Type="File" Description="Package data types">Hmi.typ</Object>
+    <Object Type="File" Description="Package variables">Hmi.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="HMI control logic">hmiCtrl</Object>
+    <Object Type="DataObject" Language="Vc" Description="1024x768 (XGA)">Visu</Object>
+  </Objects>
+</Package>

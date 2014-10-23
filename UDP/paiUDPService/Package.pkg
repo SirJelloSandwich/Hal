@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.24 SP06?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">paiUDPService.typ</Object>
+    <Object Type="File" Description="Global variables">paiUDPService.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="UDP server">udpserv</Object>
+    <Object Type="Program" Language="ANSIC" Description="UDP client ">udpclient</Object>
+  </Objects>
+</Package>

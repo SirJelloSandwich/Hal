@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- HP
+ ********************************************************************
+ * File: Global.var
+ * Author: goran
+ * Created: January 23, 2013
+ ********************************************************************
+ * Global variables of project YieldPlus
+ ********************************************************************)
+VAR
+	gTestString : STRING[31] := '';
+	testSQLHaliGo : USINT := 0;
+	fifoMemSQL : ARRAY[0..CONST_FIFO_MAX_SQL_ENTRYID] OF appDataRecordSQLQuery_typ := [2(0)];
+	fifoMgrSQL : bgFIFO_typ := (0);
+	gSQLToFIFO : appDataRecordSQLQuery_typ := (0);
+END_VAR

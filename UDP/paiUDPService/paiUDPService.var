@@ -1,0 +1,26 @@
+(********************************************************************
+ * COPYRIGHT -- belgor
+ ********************************************************************
+ * Package: paiUDPService
+ * File: paiUDPService.var
+ * Author: goran
+ * Created: October 12, 2011
+ ********************************************************************
+ * Variables of package paiUDPService
+ ********************************************************************)
+VAR CONSTANT
+	gUdpServer_DefaultPort : UDINT := 9999; (*UDP Server default port*)
+	gUdpClient_TaskCycleTimeXms : UDINT := 2; (*UDP Client task cycle time in [ms]*)
+	gUdpClient_DefaultPort : UDINT := 9998; (*UDP Client default port*)
+END_VAR
+VAR
+	gUdpClient_DefaultHostAdr : STRING[UDP_IP_ADDR_LEN] := '192.168.2.100'; (*UDP Client default host IP address when using continues UDP client mode*)
+END_VAR
+VAR RETAIN
+	gUdpSystemCfg : udpSystemConfig_typ := (0); (*UDP System Configuration Data (remanent memory)*)
+END_VAR
+VAR
+	gUdpServer : udpServer_typ; (*UDP Server Object Instance*)
+	gUdpClientAudio : udpClient_typ; (*UDP Client Object Instance*)
+	gUdpClient : udpClient_typ; (*UDP Client Object Instance*)
+END_VAR

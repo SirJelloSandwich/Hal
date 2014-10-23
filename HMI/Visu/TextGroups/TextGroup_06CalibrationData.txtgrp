@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.0.19.69 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TextGroup_06CalibrationData">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="129829" Value="WINCH FULL UP"/>
+    <Text ID="129830" Value="WINCH FULL DOWN"/>
+    <Text ID="129831" Value="WINCH UP COLLAR"/>
+    <Text ID="129832" Value="WINCH DOWN COLLAR"/>
+    <Text ID="129837" Value="SPOOLER UP DEADBAND"/>
+    <Text ID="129838" Value="SPOOLER DOWN DEADBAND"/>
+    <Text ID="129839" Value="SPOOLER LEFT DEADBAND"/>
+    <Text ID="129840" Value="SPOOLER RIGHT DEADBAND"/>
+    <Text ID="130065" Value="LINE TENSION STOP"/>
+    <Text ID="130291" Value="LINE TENSION MAX"/>
+    <Text ID="130516" Value="CALIPER BRAKE STOP"/>
+    <Text ID="130517" Value="CALIPER BRAKE MAX"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="129829" Value=""/>
+    <Text ID="129830" Value=""/>
+    <Text ID="129831" Value=""/>
+    <Text ID="129832" Value=""/>
+    <Text ID="129837" Value=""/>
+    <Text ID="129838" Value=""/>
+    <Text ID="129839" Value=""/>
+    <Text ID="129840" Value=""/>
+    <Text ID="130065" Value=""/>
+    <Text ID="130291" Value=""/>
+    <Text ID="130516" Value=""/>
+    <Text ID="130517" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="129829" Value="0"/>
+    <Index ID="129830" Value="1"/>
+    <Index ID="129831" Value="2"/>
+    <Index ID="129832" Value="3"/>
+    <Index ID="129837" Value="4"/>
+    <Index ID="129838" Value="5"/>
+    <Index ID="129839" Value="6"/>
+    <Index ID="129840" Value="7"/>
+    <Index ID="130065" Value="8"/>
+    <Index ID="130291" Value="9"/>
+    <Index ID="130516" Value="10"/>
+    <Index ID="130517" Value="11"/>
+  </IndexMap>
+</TextGroup>

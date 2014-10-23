@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: paiFileService
+ * File: paiFileService.var
+ * Author: goran_2
+ * Created: August 05, 2011
+ ********************************************************************
+ * Variables of package paiFileService
+ ********************************************************************)
+VAR
+	paiFS : paiFileService_typ := (0); (*Global PV for interfacing to PAI file service.*)
+END_VAR

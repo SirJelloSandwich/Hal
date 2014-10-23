@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.0.19.69 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="gAlertLayer">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.HMI.gHmi.locValue.alertDialog.dialogStatus]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[info]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[Raised]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="412"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="273"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="182"/>
+      <Property Name="Width" Value="477"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Border" Value="Source[local].Border[Etched]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12px]"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="197"/>
+      <Property Name="Left" Value="277"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="This is text!\nHi."/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.HMI.gHmi.locValue.alertDialog.text]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="395"/>
+      <Property Name="Width" Value="470"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

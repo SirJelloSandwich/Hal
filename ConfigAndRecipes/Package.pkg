@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types - machine configuration">Config.typ</Object>
+    <Object Type="File" Description="Global data types - recipes">Recipe.typ</Object>
+    <Object Type="File" Description="Global data types - perm data storage">RemData.typ</Object>
+    <Object Type="File" Description="Global variables - configuration and recipe related">ConfigAndRecipes.var</Object>
+    <Object Type="Package" Description="PAI file access service package">paiFileService</Object>
+    <Object Type="Program" Language="ANSIC" Description="Application file storage service">cfgFS</Object>
+  </Objects>
+</Package>

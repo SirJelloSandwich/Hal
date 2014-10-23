@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.17.85 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">paiFileService.typ</Object>
+    <Object Type="File" Description="Global variables">paiFileService.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="PAI file service task.">paiFS</Object>
+    <Object Type="Program" Language="ANSIC" Description="Example application code for using PAI file service.">paiFSUnitTest</Object>
+  </Objects>
+</Package>
