@@ -24,6 +24,8 @@
 //#define CFDISK "CFDISK"
 //#define PARAM "/SIP=192.168.2.105 /PROTOCOL=cifs /SHARE=C_Data /USER=ism /PASSWORD=ism"
 
+#define KP "KP"
+
 _GLOBAL char *pch;
 char bOK;
 _GLOBAL UDINT *ppp;
@@ -50,12 +52,13 @@ _LOCAL FileDelete_typ FDelete;
 
 
 _GLOBAL STRING devicePtr[6] _VAR_INIT("CFDISK");
-_GLOBAL STRING paramPtr[100] _VAR_INIT("/SIP=192.168.2.105 /PROTOCOL=cifs /SHARE=Data /USER=ism /PASSWORD=ism");
+_GLOBAL STRING paramPtr[100] _VAR_INIT("/SIP=192.168.2.105 /PROTOCOL=cifs /SHARE=C_Data /USER=ism /PASSWORD=ism");
 //_GLOBAL STRING *CFdevice;
 _GLOBAL UDINT *device;
 _GLOBAL UDINT *param;
 
-
+_GLOBAL char *PK;
+_GLOBAL UDINT one;
 
 enum
 {
@@ -93,7 +96,8 @@ void _INIT FilesInit(void)
 	DLink.pParam    =  param;
 	//FOpen.pDevice   = devicePtr;
 	
-	
+	PK = KP;
+	one = (UDINT) PK;
 	
 }
 

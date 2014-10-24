@@ -35,7 +35,6 @@ static bgPVLogger_typ lgr;	//PV logger object
 #define DBGINIT()  ;
 #endif
 
-
 /*
 ###############################################################################
 Defines, Consts
@@ -647,6 +646,9 @@ void _INIT paiFileSrvINIT( void )
 	DBGINIT(lgr, log, LOG_ENTRY_COUNT, LOG_ENTRY_LENGTH);
 	
 	paiFileServiceInit(&paiFS, FILE_DEVICE_NAME, FILE_DEVICE_CONF);	
+	
+	
+	
 }
 
 void _CYCLIC paiFileSrvCYCLIC( void )
